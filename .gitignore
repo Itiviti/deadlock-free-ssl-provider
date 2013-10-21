@@ -1,0 +1,12 @@
+/build
+/bin
+.settings*
+.gradle*
+.classpath
+.project
+gradlew.bat
+gradlew
+gradle/
+*.7z
+*.zip
+
