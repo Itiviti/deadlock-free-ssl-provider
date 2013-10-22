@@ -9,4 +9,7 @@ gradlew
 gradle/
 *.7z
 *.zip
+.idea*
+*.iml
+/out
 

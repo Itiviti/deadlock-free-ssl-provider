@@ -25,11 +25,11 @@
 
 package ullink.security;
 
-import sun.security.ssl.SunJSSE;
+import ullink.security.ssl.SunJSSE;
 
 /**
  * Main class for the SunJSSE provider. The actual code was moved to the
- * class sun.security.ssl.SunJSSE, but for backward compatibility we
+ * class ullink.security.ssl.SunJSSE, but for backward compatibility we
  * continue to use this class as the main Provider class.
  */
 public final class Provider extends SunJSSE {
