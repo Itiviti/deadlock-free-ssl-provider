@@ -26,11 +26,10 @@
 
 package ullink.security.ssl;
 
-import com.sun.net.ssl.internal.ssl.X509ExtendedTrustManager;
+import ullink.security.X509ExtendedTrustManager;
 import ullink.security.jgss.GSSUtil;
 import ullink.security.jgss.krb5.Krb5Util;
 import ullink.security.ssl.HandshakeMessage.*;
-
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.*;
@@ -47,7 +46,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Set;
-
 import static ullink.security.ssl.CipherSuite.KeyExchange.*;
 
 /**

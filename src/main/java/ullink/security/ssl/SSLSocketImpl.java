@@ -26,10 +26,9 @@
 
 package ullink.security.ssl;
 
-import com.sun.net.ssl.internal.ssl.X509ExtendedTrustManager;
-
 import javax.crypto.BadPaddingException;
 import javax.net.ssl.*;
+import ullink.security.X509ExtendedTrustManager;
 import java.io.*;
 import java.net.*;
 import java.security.AccessControlContext;
