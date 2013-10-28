@@ -139,7 +139,7 @@ final class ProviderConfig {
                     return Boolean.FALSE;
                 }
                 if ("false".equalsIgnoreCase(System.getProperty
-                        ("ullink.security.pkcs11.enable-solaris"))) {
+                        ("sun.security.pkcs11.enable-solaris"))) {
                     return Boolean.FALSE;
                 }
                 return Boolean.TRUE;

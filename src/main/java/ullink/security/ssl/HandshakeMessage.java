@@ -26,9 +26,8 @@
 
 package ullink.security.ssl;
 
-import ullink.security.internal.spec.TlsPrfParameterSpec;
+import sun.security.internal.spec.TlsPrfParameterSpec;
 import ullink.security.ssl.CipherSuite.KeyExchange;
-
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.net.ssl.SSLException;

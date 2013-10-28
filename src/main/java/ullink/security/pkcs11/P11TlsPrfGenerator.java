@@ -25,17 +25,15 @@
 
 package ullink.security.pkcs11;
 
-import ullink.security.internal.spec.TlsPrfParameterSpec;
+import sun.security.internal.spec.TlsPrfParameterSpec;
 import ullink.security.pkcs11.wrapper.CK_MECHANISM;
 import ullink.security.pkcs11.wrapper.CK_TLS_PRF_PARAMS;
 import ullink.security.pkcs11.wrapper.PKCS11Exception;
-
 import javax.crypto.KeyGeneratorSpi;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
-
 import static ullink.security.pkcs11.wrapper.PKCS11Constants.CKM_NSS_TLS_PRF_GENERAL;
 
 /**

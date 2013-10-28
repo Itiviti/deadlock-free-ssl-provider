@@ -25,16 +25,14 @@
 
 package ullink.security.pkcs11;
 
-import ullink.security.internal.spec.TlsKeyMaterialParameterSpec;
-import ullink.security.internal.spec.TlsKeyMaterialSpec;
+import sun.security.internal.spec.TlsKeyMaterialParameterSpec;
+import sun.security.internal.spec.TlsKeyMaterialSpec;
 import ullink.security.pkcs11.wrapper.*;
-
 import javax.crypto.KeyGeneratorSpi;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
-
 import static ullink.security.pkcs11.TemplateManager.O_GENERATE;
 import static ullink.security.pkcs11.wrapper.PKCS11Constants.*;
 

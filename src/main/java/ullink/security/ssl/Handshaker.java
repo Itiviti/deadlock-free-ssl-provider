@@ -27,15 +27,14 @@
 package ullink.security.ssl;
 
 import sun.misc.HexDumpEncoder;
-import ullink.security.internal.interfaces.TlsMasterSecret;
-import ullink.security.internal.spec.TlsKeyMaterialParameterSpec;
-import ullink.security.internal.spec.TlsKeyMaterialSpec;
-import ullink.security.internal.spec.TlsMasterSecretParameterSpec;
+import sun.security.internal.interfaces.TlsMasterSecret;
+import sun.security.internal.spec.TlsKeyMaterialParameterSpec;
+import sun.security.internal.spec.TlsKeyMaterialSpec;
+import sun.security.internal.spec.TlsMasterSecretParameterSpec;
 import ullink.security.ssl.CipherSuite.BulkCipher;
 import ullink.security.ssl.CipherSuite.KeyExchange;
 import ullink.security.ssl.CipherSuite.MacAlg;
 import ullink.security.ssl.HandshakeMessage.Finished;
-
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;

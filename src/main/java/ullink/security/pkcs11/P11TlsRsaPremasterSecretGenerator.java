@@ -25,12 +25,11 @@
 
 package ullink.security.pkcs11;
 
-import ullink.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
+import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
 import ullink.security.pkcs11.wrapper.CK_ATTRIBUTE;
 import ullink.security.pkcs11.wrapper.CK_MECHANISM;
 import ullink.security.pkcs11.wrapper.CK_VERSION;
 import ullink.security.pkcs11.wrapper.PKCS11Exception;
-
 import javax.crypto.KeyGeneratorSpi;
 import javax.crypto.SecretKey;
 import java.security.InvalidAlgorithmParameterException;
@@ -38,7 +37,6 @@ import java.security.InvalidParameterException;
 import java.security.ProviderException;
 import java.security.SecureRandom;
 import java.security.spec.AlgorithmParameterSpec;
-
 import static ullink.security.pkcs11.TemplateManager.O_GENERATE;
 import static ullink.security.pkcs11.wrapper.PKCS11Constants.CKK_GENERIC_SECRET;
 import static ullink.security.pkcs11.wrapper.PKCS11Constants.CKO_SECRET_KEY;

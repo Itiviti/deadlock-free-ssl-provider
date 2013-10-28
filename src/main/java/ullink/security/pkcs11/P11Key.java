@@ -25,15 +25,14 @@
 
 package ullink.security.pkcs11;
 
+import sun.security.internal.interfaces.TlsMasterSecret;
 import ullink.security.ec.ECPrivateKeyImpl;
 import ullink.security.ec.ECPublicKeyImpl;
-import ullink.security.internal.interfaces.TlsMasterSecret;
 import ullink.security.pkcs11.wrapper.CK_ATTRIBUTE;
 import ullink.security.pkcs11.wrapper.PKCS11Exception;
 import ullink.security.rsa.RSAPublicKeyImpl;
 import ullink.security.util.DerValue;
 import ullink.security.util.Length;
-
 import javax.crypto.SecretKey;
 import javax.crypto.interfaces.DHPrivateKey;
 import javax.crypto.interfaces.DHPublicKey;
@@ -55,7 +54,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
-
 import static ullink.security.pkcs11.wrapper.PKCS11Constants.*;
 
 /**
