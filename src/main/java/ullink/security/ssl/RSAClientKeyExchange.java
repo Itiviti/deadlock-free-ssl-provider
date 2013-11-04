@@ -27,7 +27,6 @@
 package ullink.security.ssl;
 
 import sun.security.internal.spec.TlsRsaPremasterSecretParameterSpec;
-import ullink.security.util.KeyLength;
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;

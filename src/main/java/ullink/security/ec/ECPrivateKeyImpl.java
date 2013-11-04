@@ -25,11 +25,11 @@
 
 package ullink.security.ec;
 
-import ullink.security.pkcs.PKCS8Key;
-import ullink.security.util.DerInputStream;
-import ullink.security.util.DerOutputStream;
-import ullink.security.util.DerValue;
-import ullink.security.x509.AlgorithmId;
+import sun.security.pkcs.PKCS8Key;
+import sun.security.util.DerInputStream;
+import sun.security.util.DerOutputStream;
+import sun.security.util.DerValue;
+import sun.security.x509.AlgorithmId;
 
 import java.io.IOException;
 import java.math.BigInteger;

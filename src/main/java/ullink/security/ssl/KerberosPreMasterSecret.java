@@ -25,10 +25,10 @@
 
 package ullink.security.ssl;
 
-import ullink.security.krb5.EncryptedData;
-import ullink.security.krb5.EncryptionKey;
-import ullink.security.krb5.KrbException;
-import ullink.security.krb5.internal.crypto.KeyUsage;
+import sun.security.krb5.EncryptedData;
+import sun.security.krb5.EncryptionKey;
+import sun.security.krb5.KrbException;
+import sun.security.krb5.internal.crypto.KeyUsage;
 
 import javax.net.ssl.SSLKeyException;
 import java.io.IOException;

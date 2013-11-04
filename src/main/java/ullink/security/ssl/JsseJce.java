@@ -27,8 +27,8 @@ package ullink.security.ssl;
 
 import ullink.security.ec.ECParameters;
 import ullink.security.ec.NamedCurve;
-import ullink.security.jca.ProviderList;
-import ullink.security.jca.Providers;
+import sun.security.jca.ProviderList;
+import sun.security.jca.Providers;
 
 import javax.crypto.*;
 import java.math.BigInteger;

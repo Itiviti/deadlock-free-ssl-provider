@@ -25,8 +25,8 @@
 
 package ullink.security.ec;
 
-import ullink.security.x509.AlgorithmId;
-import ullink.security.x509.X509Key;
+import sun.security.x509.AlgorithmId;
+import sun.security.x509.X509Key;
 
 import java.io.IOException;
 import java.security.AlgorithmParameters;

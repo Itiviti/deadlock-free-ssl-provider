@@ -25,7 +25,7 @@
 
 package ullink.security.ssl;
 
-import ullink.security.validator.Validator;
+import sun.security.validator.Validator;
 
 import javax.net.ssl.*;
 import java.io.File;

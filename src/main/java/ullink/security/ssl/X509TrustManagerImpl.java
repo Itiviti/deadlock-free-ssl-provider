@@ -27,10 +27,10 @@
 package ullink.security.ssl;
 
 import ullink.security.X509ExtendedTrustManager;
-import ullink.security.util.HostnameChecker;
-import ullink.security.validator.KeyStores;
-import ullink.security.validator.PKIXValidator;
-import ullink.security.validator.Validator;
+import sun.security.util.HostnameChecker;
+import sun.security.validator.KeyStores;
+import sun.security.validator.PKIXValidator;
+import sun.security.validator.Validator;
 import javax.net.ssl.X509TrustManager;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
