@@ -25,8 +25,8 @@
 
 package ullink.security.ec;
 
-import ullink.security.util.DerOutputStream;
-import ullink.security.util.ObjectIdentifier;
+import sun.security.util.DerOutputStream;
+import sun.security.util.ObjectIdentifier;
 
 import java.io.IOException;
 import java.math.BigInteger;

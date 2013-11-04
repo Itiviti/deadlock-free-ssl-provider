@@ -25,7 +25,7 @@
 
 package ullink.security.ssl;
 
-import ullink.security.action.GetPropertyAction;
+import sun.security.action.GetPropertyAction;
 
 import java.io.PrintStream;
 import java.security.AccessController;
@@ -195,6 +195,6 @@ public class Debug {
     }
 
     static String toString(byte[] b) {
-        return ullink.security.util.Debug.toString(b);
+        return sun.security.util.Debug.toString(b);
     }
 }

@@ -221,7 +221,7 @@ public abstract class SunJSSE extends java.security.Provider {
          * KeyStore
          */
         put("KeyStore.PKCS12",
-            "ullink.security.pkcs12.PKCS12KeyStore");
+            "sun.security.pkcs12.PKCS12KeyStore");
     }
 
     private void subclassCheck() {

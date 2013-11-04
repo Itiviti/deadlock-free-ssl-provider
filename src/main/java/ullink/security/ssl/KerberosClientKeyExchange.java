@@ -25,15 +25,15 @@
 
 package ullink.security.ssl;
 
-import ullink.security.jgss.GSSUtil;
-import ullink.security.jgss.krb5.Krb5Util;
-import ullink.security.krb5.EncryptedData;
-import ullink.security.krb5.EncryptionKey;
-import ullink.security.krb5.PrincipalName;
-import ullink.security.krb5.Realm;
-import ullink.security.krb5.internal.EncTicketPart;
-import ullink.security.krb5.internal.Ticket;
-import ullink.security.krb5.internal.crypto.KeyUsage;
+import sun.security.jgss.GSSUtil;
+import sun.security.jgss.krb5.Krb5Util;
+import sun.security.krb5.EncryptedData;
+import sun.security.krb5.EncryptionKey;
+import sun.security.krb5.PrincipalName;
+import sun.security.krb5.Realm;
+import sun.security.krb5.internal.EncTicketPart;
+import sun.security.krb5.internal.Ticket;
+import sun.security.krb5.internal.crypto.KeyUsage;
 
 import javax.security.auth.kerberos.KerberosKey;
 import javax.security.auth.kerberos.KerberosPrincipal;

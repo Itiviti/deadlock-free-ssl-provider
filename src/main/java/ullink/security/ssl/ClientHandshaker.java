@@ -27,8 +27,8 @@
 package ullink.security.ssl;
 
 import ullink.security.X509ExtendedTrustManager;
-import ullink.security.jgss.GSSUtil;
-import ullink.security.jgss.krb5.Krb5Util;
+import sun.security.jgss.GSSUtil;
+import sun.security.jgss.krb5.Krb5Util;
 import ullink.security.ssl.HandshakeMessage.*;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;

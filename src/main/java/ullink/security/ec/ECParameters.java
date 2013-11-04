@@ -25,8 +25,8 @@
 
 package ullink.security.ec;
 
-import ullink.security.util.DerValue;
-import ullink.security.util.ObjectIdentifier;
+import sun.security.util.DerValue;
+import sun.security.util.ObjectIdentifier;
 
 import java.io.IOException;
 import java.math.BigInteger;
