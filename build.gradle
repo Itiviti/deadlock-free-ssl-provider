@@ -18,6 +18,9 @@ repositories {
     mavenCentral()
 }
 
+group = "com.ullink.security"
+version = "1.1"
+
 task "create-dirs" << {
     sourceSets*.java.srcDirs*.each { it.mkdirs() }
     sourceSets*.resources.srcDirs*.each { it.mkdirs() }

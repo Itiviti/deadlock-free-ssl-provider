@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'ul-ssl-provider'
+rootProject.name = 'deadlock-free-ssl-provider'

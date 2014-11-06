@@ -1,5 +1,5 @@
-ul-ssl-provider
-===============
+deadlock-free-ssl-provider
+==========================
 
 a ssl provider extracted from OpenJDK6-b27 
 
